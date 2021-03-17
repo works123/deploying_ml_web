@@ -12,7 +12,10 @@ vehicle_config = {
 }
 
 url = 'http://127.0.0.1:5000/predict'
+<<<<<<< HEAD
 
 url = 'https://bayomodel1.herokuapp.com/predict'
+=======
+>>>>>>> a43b69b6b9fce359daba520820fe0fe8482115bd
 r = requests.post(url, json = vehicle_config)
 print(r.text.strip())
