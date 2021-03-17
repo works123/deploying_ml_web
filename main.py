@@ -17,7 +17,7 @@ def my_home():
 def predict():
     vehicle = request.get_json()
     print(vehicle)
-    with open('model_files\model.pkl', 'rb') as f_in:
+    with open('model_files/model.pkl', 'rb') as f_in:
         model = pickle.load(f_in)
         f_in.close()
     predictions = predict_mpg(vehicle, model)
