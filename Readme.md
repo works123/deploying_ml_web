@@ -1,6 +1,6 @@
 ### Setting up your ML Model as a Web Service in Heroku
 
-Code setup steps
+**Code setup steps**
 1. setup your development environment in a virtual environment on your local machine
 2. Implement your model as a Flask web service
 3. Setup the solution a wsgi web service - you require gunicorn python package
@@ -11,7 +11,8 @@ Code setup steps
 7. Create the wsgi.py awith the content as shown in the sample wsgi.py
 
 
-Setting up on web service on  Heroku App
+
+**Setting up on web service on  Heroku App**
 1. log into Heroku 
 2. Create your App 
 3. Select the deployment method Heroku Git or GitHub and follow the instructions Heroku provides.
